@@ -4,7 +4,7 @@
 /* 
     this sql project deals with creating a database of 
     famous people and relations between them 
-    database from: https://github.com/aaiss1/KA-SQL           -Projects/blob/master/Famous%20People.dbf 
+    database from: https://github.com/aaiss1/KA-SQL-Projects/blob/master/Famous%20People.dbf 
 */
     
     
@@ -101,3 +101,5 @@ SELECT a.name as friend_1, b.name as friend_2 from celeb_relations
     ON a.id = celeb_relations.person1_id
     JOIN stars b
     ON b.id = celeb_relations.person2_id
+
+
