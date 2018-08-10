@@ -11,4 +11,4 @@
 *.gitattributes text
 .gitignore text
 *.md text
-*.css linguist-language=Oracle
+*.css linguist-language=SQL
